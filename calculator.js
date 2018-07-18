@@ -9,6 +9,10 @@ class Calculator {
     return a * b;
   }
   div(a, b) {
+    if(b == 0) {
+      throw Error("Can't divide by zero");
+    }
+
     return a / b;
   }
 }
