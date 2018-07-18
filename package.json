@@ -1,0 +1,27 @@
+{
+  "name": "calculator",
+  "version": "0.0.1",
+  "description": "A simple app for automated tests using jest",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameerthehacker/node-calculator.git"
+  },
+  "keywords": [
+    "jest",
+    "calculator",
+    "node"
+  ],
+  "author": "ameerthehacker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ameerthehacker/node-calculator/issues"
+  },
+  "homepage": "https://github.com/ameerthehacker/node-calculator#readme",
+  "devDependencies": {
+    "jest": "^23.4.1"
+  }
+}
