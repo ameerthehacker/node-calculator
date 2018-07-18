@@ -1,4 +1,4 @@
-const Calculator = require('./calculator');
+const Calculator = require('./calculator/calculator');
 const calc = new Calculator();
 
 console.log("1 + 2 is " + calc.add(1,2));
