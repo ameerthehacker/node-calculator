@@ -15,6 +15,9 @@ class Calculator {
 
     return a / b;
   }
+  abs(a) {
+    return Math.abs(a);
+  }
 }
 
 module.exports = Calculator;
