@@ -34,7 +34,11 @@ class Calculator {
   }
 
   sin(a) {
-    return Math.sin(a)
+    return Math.sin(a);
+  }
+
+  tan(a) {
+    return Math.tan(a);
   }
 }
 
