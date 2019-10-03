@@ -38,7 +38,7 @@ class Calculator {
   }
   
   tan(a) {
-    return Math.tan(a * Math.PI/180);
+    return Math.tan(a);
   }
 }
 
