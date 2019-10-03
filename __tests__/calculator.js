@@ -45,8 +45,8 @@ describe('Calculator', () => {
 
   it("should tan correctly", () => {
     // Act
-    let result = calc.tan(90);
+    let result = calc.tan(1);
     // Assert
-    expect(result).toBe(16331239353195370);
+    expect(result).toBe(1.5574077246549023);
   });
 });
