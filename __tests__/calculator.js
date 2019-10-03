@@ -42,4 +42,11 @@ describe('Calculator', () => {
     // Act and Assert
     expect(() => calc.div(a, 0)).toThrow("Can't divide by zero");
   });
+
+  it("should tan correctly", () => {
+    // Act
+    let result = calc.tan(90);
+    // Assert
+    expect(result).toBe(16331239353195370);
+  });
 });

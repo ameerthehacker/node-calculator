@@ -18,6 +18,9 @@ class Calculator {
   abs(a) {
     return Math.abs(a);
   }
+  tan(a) {
+    return Math.tan(a * Math.PI/180);
+  }
 }
 
 module.exports = Calculator;
