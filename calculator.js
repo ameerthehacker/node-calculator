@@ -13,7 +13,7 @@ class Calculator {
   }
 
   div(a, b) {
-    if(b == 0) {
+    if (b == 0) {
       throw Error("Can't divide by zero");
     }
     return a / b;
@@ -24,15 +24,18 @@ class Calculator {
   }
 
   log(a) {
-    if( a === 0 ) {
+    if (a === 0) {
       return "-Infinity";
-    }else if( a < 0 ) {
+    } else if (a < 0) {
       return NaN;
-    }else {
+    } else {
       return Math.log(a);
     }
   }
 
+  sin(a) {
+    return Math.sin(a)
+  }
 }
 
 module.exports = Calculator;
