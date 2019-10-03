@@ -28,7 +28,7 @@ describe('Calculator', () => {
     // Act
     let result = calc.sub(a, -b);
     // Assert
-    expect(result).toBe(a - (-b));
+    expect(result).toBe(a - b);
   });
 
   it("should multiply correctly", () => {
