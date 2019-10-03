@@ -24,6 +24,13 @@ describe('Calculator', () => {
     expect(result).toBe(a - b);
   });
 
+  it("should add if positive number is subtracted to negative number", () => {
+    // Act
+    let result = calc.sub(a, -b);
+    // Assert
+    expect(result).toBe(a - b);
+  });
+
   it("should multiply correctly", () => {
     // Act
     let result = calc.mul(a, b);
