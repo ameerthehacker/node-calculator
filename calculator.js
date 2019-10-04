@@ -37,6 +37,11 @@ class Calculator {
     return Math.sin(a);
   }
 
+  cos(a)
+  {
+    return Math.cos(a);
+  }
+
   tan(a) {
     if (Math.abs(a) === Math.PI/2) {
       return "Infinity";
