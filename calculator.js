@@ -1,5 +1,4 @@
 class Calculator {
-
   add(a, b) {
     return a + b;
   }
@@ -25,7 +24,7 @@ class Calculator {
 
   log(a) {
     if (a === 0) {
-      return "-Infinity";
+      return '-Infinity';
     } else if (a < 0) {
       return NaN;
     } else {
@@ -37,18 +36,36 @@ class Calculator {
     return Math.sin(a);
   }
 
-  cos(a)
-  {
+  cos(a) {
     return Math.cos(a);
   }
 
   tan(a) {
-    if (Math.abs(a) === Math.PI/2) {
-      return "Infinity";
-    }
-    else {
+    if (Math.abs(a) === Math.PI / 2) {
+      return 'Infinity';
+    } else {
       return Math.tan(a);
     }
+  }
+
+  fact(a) {
+    var result = 1;
+    for (let i = a; i > 1; i--) {
+      result *= i;
+    }
+    return result;
+  }
+
+  sqrt(a) {
+    if (a<0) {
+      return 'Undefined'
+    } else {
+      return Math.sqrt(a);
+    }
+  }
+
+  pow(a, b) {
+    return Math.pow(a, b);
   }
 }
 
