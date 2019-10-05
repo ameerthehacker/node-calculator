@@ -9,3 +9,6 @@ console.log("log10 is " + calc.log(10));
 console.log("sin 360 is " + calc.sin(360));
 console.log("tan 180 is " + calc.tan(180));
 console.log("cos 120 is " + calc.cos(120));
+console.log("5! is " + calc.fact(-5));
+console.log("Sqrt 25 is " + calc.sqrt(25));
+console.log("4^4 is " + calc.pow(4, 4));
