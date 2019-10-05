@@ -49,4 +49,23 @@ describe('Calculator', () => {
     // Act and Assert
     expect(() => calc.div(a, 0)).toThrow("Can't divide by zero");
   });
+
+  it("should give result 1 when factorial is done for value of a<1", () => {
+    // Act
+    let result = calc.fact(-a);
+    // Assert
+    expect(result).toBe(1);
+  });
+
+  it("should give undefined if sqrt of negative value is done", () => {
+    // Act and Assert
+    expect(() => calc.sqrt(-a)).toThrow("Undefined");
+  });
+
+  it("should give square root value", () => {
+    // Act
+    let result = calc.pow(a, 2);
+    // Assert
+    expect(result).toBe(a*a);;
+  });
 });
