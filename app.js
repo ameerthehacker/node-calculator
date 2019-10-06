@@ -12,4 +12,5 @@ console.log("cos 120 is " + calc.cos(120));
 console.log("5! is " + calc.fact(-5));
 console.log("Sqrt 25 is " + calc.sqrt(25));
 console.log("4^4 is " + calc.pow(4, 4));
+console.log("25cm is " + calc.cm_to_inch(25));
 console.log("SD of [1, 2, 3, 4, 5] is " + calc.sd([1, 2, 3, 4, 5]))
