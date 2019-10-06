@@ -74,3 +74,12 @@ describe('Calculator', () => {
     expect(result).toBe(1.01);
   })
 });
+
+  it("should give standard deviation value", () => {
+    //Act
+    let result = calc.sd([1, 1, 1, 1, 1]);
+    //Assert
+    expect(result).toBe(0);
+  })
+});
+

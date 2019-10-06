@@ -58,7 +58,7 @@ class Calculator {
 
   sqrt(a) {
     if (a<0) {
-      return 'Undefined'
+      throw 'Undefined'
     } else {
       return Math.sqrt(a);
     }
@@ -71,6 +71,16 @@ class Calculator {
   cm_to_m(a) {
     return a / 100;
   }
+
+  sd(a) {
+    var sum = a.reduce(function(sum, value){
+      return sum + value;
+    }, 0);
+    var avg = sum / a.length;
+    return Math.sqrt(a.reduce(function (sq, n) {
+            return sq + Math.pow(n - avg, 2);
+        }, 0) / (a.length));
+  };
 }
 
 module.exports = Calculator;
