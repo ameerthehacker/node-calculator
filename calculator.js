@@ -56,6 +56,10 @@ class Calculator {
     return result;
   }
 
+  cm_to_inch(a) {
+    return result / 0.393701;
+  }
+
   sqrt(a) {
     if (a<0) {
       throw 'Undefined'

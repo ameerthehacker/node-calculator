@@ -69,6 +69,11 @@ describe('Calculator', () => {
     expect(result).toBe(a*a);;
   });
 
+  it("should convert from cm to inches", () => {
+    let result = calc.cm_to_inch(100);
+    expect(result).toBe(39.3701)
+  })
+
   it("should give standard deviation value", () => {
     //Act
     let result = calc.sd([1, 1, 1, 1, 1]);
