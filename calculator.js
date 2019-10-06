@@ -81,6 +81,10 @@ class Calculator {
             return sq + Math.pow(n - avg, 2);
         }, 0) / (a.length));
   };
+
+  cmToMeters(a){
+    return a * 100;
+  }
 }
 
 module.exports = Calculator;

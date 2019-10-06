@@ -73,7 +73,6 @@ describe('Calculator', () => {
     let result = calc.cm_to_m(101);
     expect(result).toBe(1.01);
   })
-});
 
   it("should give standard deviation value", () => {
     //Act
@@ -81,5 +80,11 @@ describe('Calculator', () => {
     //Assert
     expect(result).toBe(0);
   })
-});
 
+  it("should give cm to Meters value", () => {
+    //Act
+    let result = calc.cmToMeters(a);
+    //Assert
+    expect(result).toBe(a*100);
+  })
+});
