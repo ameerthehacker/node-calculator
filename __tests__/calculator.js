@@ -68,4 +68,11 @@ describe('Calculator', () => {
     // Assert
     expect(result).toBe(a*a);;
   });
+
+  it("should give standard deviation value", () => {
+    //Act
+    let result = calc.sd([1, 1, 1, 1, 1]);
+    //Assert
+    expect(result).toBe(0);
+  })
 });
