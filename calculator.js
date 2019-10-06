@@ -7,6 +7,10 @@ class Calculator {
     return a - b;
   }
 
+  mean(a, b){
+    return (a+b)/2;
+  }
+
   mul(a, b) {
     return a * b;
   }
