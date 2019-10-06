@@ -67,6 +67,10 @@ class Calculator {
   pow(a, b) {
     return Math.pow(a, b);
   }
+
+  cm_to_m(a) {
+    return a / 100;
+  }
 }
 
 module.exports = Calculator;

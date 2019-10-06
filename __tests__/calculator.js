@@ -68,4 +68,9 @@ describe('Calculator', () => {
     // Assert
     expect(result).toBe(a*a);;
   });
+
+  it("should convert cm to m correctly", () => {
+    let result = calc.cm_to_m(101);
+    expect(result).toBe(1.01);
+  })
 });
