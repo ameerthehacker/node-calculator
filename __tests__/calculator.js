@@ -75,4 +75,11 @@ describe('Calculator', () => {
     //Assert
     expect(result).toBe(0);
   })
+
+  it("should give cm to Meters value", () => {
+    //Act
+    let result = calc.cmToMeters(a);
+    //Assert
+    expect(result).toBe(a*100);
+  })
 });
