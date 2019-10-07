@@ -57,7 +57,7 @@ class Calculator {
   }
 
   cm_to_inch(a) {
-    return result / 0.393701;
+    return a / 0.393701;
   }
 
   sqrt(a) {
@@ -83,6 +83,10 @@ class Calculator {
   };
 
   cmToMeters(a){
+    return a * 100;
+  }
+
+  metersToCM(a){
     return a * 100;
   }
 }
