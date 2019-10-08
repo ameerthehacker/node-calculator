@@ -12,7 +12,7 @@ class Calculator {
   }
 
   div(a, b) {
-    if (b == 0) {
+    if (b === 0) {
       throw Error("Can't divide by zero");
     }
     return a / b;
