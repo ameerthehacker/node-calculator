@@ -16,3 +16,4 @@ console.log("25cm is " + calc.cm_to_inch(25));
 console.log("SD of [1, 2, 3, 4, 5] is " + calc.sd([1, 2, 3, 4, 5]))
 console.log("25 Meters is " + calc.cmToMeters(25)+" Centimeters");
 console.log("25 Meters is " + calc.metersToCM(25)+" Centimeters");
+console.log("mean of 8 and 2 is " + calc.mean(8, 2));
