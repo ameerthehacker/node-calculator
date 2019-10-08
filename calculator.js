@@ -57,7 +57,7 @@ class Calculator {
   }
 
   cm_to_inch(a) {
-    return a / 0.393701;
+    return a * 0.393701;
   }
 
   sqrt(a) {
