@@ -93,6 +93,16 @@ class Calculator {
   mean(a, b) {
     return (a + b) / 2;
   }
+
+  variance(a){
+    var sum = a.reduce(function(sum, value){
+      return sum + value;
+    }, 0);
+    var avg = sum / a.length;
+    return a.reduce(function (sq, n) {
+      return sq + Math.pow(n - avg, 2);
+    }, 0) / (a.length);
+  }
 }
 
 module.exports = Calculator;
