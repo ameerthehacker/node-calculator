@@ -1,4 +1,4 @@
-# node-calculator &middot; [![Build Status](https://travis-ci.com/manisacharya/node-calculator.svg?branch=master)](https://travis-ci.com/manisacharya/node-calculator)
+# node-calculator &middot; [![Build Status](https://travis-ci.com/ameerthehacker/node-calculator.svg?branch=master)](https://travis-ci.com/manisacharya/node-calculator)
 A simple app for automated tests using jest
 
 ### How to run the app locally
