@@ -21,7 +21,7 @@ $ npm test
 ### How to run code coverage
 
 ```
-$ npm test -- --coverage
+$ npm run test-coverage
 ```
 Note the duplicate --. 
 The first separates the parameters passed to the npm command itself and the following are passed to the test script.
