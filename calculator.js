@@ -89,6 +89,10 @@ class Calculator {
   metersToCM(a){
     return a * 100;
   }
+
+  mean(a, b) {
+    return (a + b) / 2;
+  }
 }
 
 module.exports = Calculator;
