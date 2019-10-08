@@ -87,4 +87,11 @@ describe('Calculator', () => {
     //Assert
     expect(result).toBe(a*100);
   })
+
+  it("give variance of an array", () => {
+    //Act
+    let result = calc.variance([5,7,9,11,13]);
+    //Assert
+    expect(result).toBe(8);
+  })
 });
