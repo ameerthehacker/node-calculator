@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./app.js",
-    "test": "jest --verbose",
-    "test-coverage": "npm test -- --coverage"
+    "test": "jest",
+    "test-coverage": "http-server coverage/lcov-report/"
   },
   "repository": {
     "type": "git",

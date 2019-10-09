@@ -23,5 +23,3 @@ $ npm test
 ```
 $ npm run test-coverage
 ```
-Note the duplicate --. 
-The first separates the parameters passed to the npm command itself and the following are passed to the test script.
