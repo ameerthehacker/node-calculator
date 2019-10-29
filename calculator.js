@@ -104,6 +104,10 @@ class Calculator {
     }, 0) / (a.length);
   }
 
+  celciusToKelvin(a) {
+    return a + 273.15;
+  }
+  
   cToF(a){
     return parseFloat((a * 1.8 + 32).toFixed(1));
   }
