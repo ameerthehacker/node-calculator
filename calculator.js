@@ -107,6 +107,10 @@ class Calculator {
   celciusToKelvin(a) {
     return a + 273.15;
   }
+  
+  cToF(a){
+    return parseFloat((a * 1.8 + 32).toFixed(1));
+  }
 }
 
 module.exports = Calculator;
