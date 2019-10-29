@@ -103,6 +103,10 @@ class Calculator {
       return sq + Math.pow(n - avg, 2);
     }, 0) / (a.length);
   }
+
+  celciusToKelvin(a) {
+    return a + 273.15;
+  }
 }
 
 module.exports = Calculator;
