@@ -94,4 +94,11 @@ describe('Calculator', () => {
     //Assert
     expect(result).toBe(8);
   })
+
+  it("should give the celcius conversion of inputted kelvin temperatures", () => {
+    //Act
+    let result = calc.kToC(300.15);
+    //Assert
+    expect(result).toBe(27);
+  })
 });
