@@ -103,6 +103,10 @@ class Calculator {
       return sq + Math.pow(n - avg, 2);
     }, 0) / (a.length);
   }
+
+  kToC(a){
+    return parseFloat((a - 273.15).toFixed(2));
+  }
 }
 
 module.exports = Calculator;
