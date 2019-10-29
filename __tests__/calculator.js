@@ -100,5 +100,11 @@ describe('Calculator', () => {
     let result = calc.kToC(300.15);
     //Assert
     expect(result).toBe(27);
+  }
+     
+  it("give fahrenheit temperature of the celcius input", () => {
+    //Act
+    let result = calc.cToF(25);
+    expect(result).toBe(77);
   })
 });

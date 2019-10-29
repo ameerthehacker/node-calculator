@@ -19,3 +19,5 @@ console.log("25 Meters is " + calc.metersToCM(25)+" Centimeters");
 console.log("mean of 8 and 2 is " + calc.mean(8, 2));
 console.log("variance of [5,7,9,11,13] is " + calc.variance([5,7,9,11,13]));
 console.log("kelvin to celcius of 300K is " + calc.kToC(300) + "C");
+console.log("35 degree celcius is " + calc.celciusToKelvin(35) + " kelvin");
+console.log("celcius to fahrenheit of 25 is " + calc.cToF(25));
