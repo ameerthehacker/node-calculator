@@ -85,7 +85,7 @@ describe('Calculator', () => {
     //Act
     let result = calc.cmToMeters(a);
     //Assert
-    expect(result).toBe(a*100);
+    expect(result).toBe(a/100);
   })
 
   it("give variance of an array", () => {
