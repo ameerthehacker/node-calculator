@@ -85,7 +85,7 @@ describe('Calculator', () => {
     //Act
     let result = calc.cmToMeters(a);
     //Assert
-    expect(result).toBe(a*100);
+    expect(result).toBe(a/100);
   })
 
   it("give variance of an array", () => {
@@ -100,7 +100,7 @@ describe('Calculator', () => {
     let result = calc.kToC(300.15);
     //Assert
     expect(result).toBe(27);
-  }
+  })
      
   it("give fahrenheit temperature of the celcius input", () => {
     //Act

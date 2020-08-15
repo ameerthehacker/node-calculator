@@ -14,7 +14,7 @@ console.log("Sqrt 25 is " + calc.sqrt(25));
 console.log("4^4 is " + calc.pow(4, 4));
 console.log("25cm is " + calc.cm_to_inch(25));
 console.log("SD of [1, 2, 3, 4, 5] is " + calc.sd([1, 2, 3, 4, 5]))
-console.log("25 Meters is " + calc.cmToMeters(25)+" Centimeters");
+console.log("25 Centimeters is " + calc.cmToMeters(25)+" Meters");
 console.log("25 Meters is " + calc.metersToCM(25)+" Centimeters");
 console.log("mean of 8 and 2 is " + calc.mean(8, 2));
 console.log("variance of [5,7,9,11,13] is " + calc.variance([5,7,9,11,13]));
