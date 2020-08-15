@@ -83,7 +83,7 @@ class Calculator {
   };
 
   cmToMeters(a){
-    return a * 100;
+    return a / 100;
   }
 
   metersToCM(a){
