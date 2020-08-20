@@ -50,11 +50,23 @@ describe('Calculator', () => {
     expect(() => calc.div(a, 0)).toThrow("Can't divide by zero");
   });
 
-  it("should give result 1 when factorial is done for value of a<1", () => {
+   it("should factorial correctly", () => {
     // Act
-    let result = calc.fact(-a);
+    let result = calc.fact(5);
     // Assert
-    expect(result).toBe(1);
+    expect(result).toBe(120); 
+  });
+
+  it("should error when factorial negative value", () => {
+   // Act and Assert
+    expect(() => calc.fact(-5)).toThrow("Can't factoral negative values"); 
+  });
+
+  it("should give result 5 when abs() is done for value of a<1", () => {
+    // Act
+    let result = calc.abs(-5);
+    // Assert
+    expect(result).toBe(5); 
   });
 
   it("should give undefined if sqrt of negative value is done", () => {

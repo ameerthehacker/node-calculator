@@ -48,12 +48,16 @@ class Calculator {
     }
   }
 
-  fact(a) {
-    var result = 1;
+   fact(a) {
+   var result = 1;
+
+    if (a < 0) {
+      throw Error("Can't factoral negative values");
+    }
     for (let i = a; i > 1; i--) {
       result *= i;
-    }
-    return result;
+     
+  } return result;
   }
 
   cm_to_inch(a) {
