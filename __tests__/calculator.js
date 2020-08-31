@@ -119,4 +119,23 @@ describe('Calculator', () => {
     let result = calc.cToF(25);
     expect(result).toBe(77);
   })
+  
+  it("give celcius temperature of the fahrenheit input", () => {
+    //Act
+    let result = calc.fToC(275);
+    expect(result).toBe(135);
+  })
+  
+   it("give kelvin temperature of the fahrenheit input", () => {
+    //Act
+    let result = calc.fToK(300);
+    expect(result).toBe(422.04);
+  })
+  
+   it("give fahrenheit temperature of the kelvin input", () => {
+    //Act
+    let result = calc.kToF(450);
+    expect(result).toBe(350.33);
+  })
+  
 });

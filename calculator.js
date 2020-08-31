@@ -118,6 +118,17 @@ class Calculator {
   cToF(a){
     return parseFloat((a * 1.8 + 32).toFixed(1));
   }
+  
+  fToC(a){
+	return parseFloat(((a - 32)* (5 / 9)).toFixed(2));
+  }
+  
+  kToF(a){
+	return parseFloat(((a - 273.15)* (9 / 5) + 32).toFixed(2));  
+  }
+  
+  fToK(a){
+	return parseFloat(((a - 32)* (5 / 9) + 273.15).toFixed(2));  
+  }
 }
-
 module.exports = Calculator;
